@@ -1,0 +1,219 @@
+C:\Users\mkhoa\source\repos\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\mongocrypt.dll
+C:\Users\mkhoa\source\repos\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\TapHoaThanhPhu.exe.config
+C:\Users\mkhoa\source\repos\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\TapHoaThanhPhu.exe
+C:\Users\mkhoa\source\repos\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\TapHoaThanhPhu.pdb
+C:\Users\mkhoa\source\repos\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\AWSSDK.Core.dll
+C:\Users\mkhoa\source\repos\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\AWSSDK.SecurityToken.dll
+C:\Users\mkhoa\source\repos\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\DnsClient.dll
+C:\Users\mkhoa\source\repos\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\mkhoa\source\repos\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\mkhoa\source\repos\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\Microsoft.Win32.Registry.dll
+C:\Users\mkhoa\source\repos\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\MongoDB.Bson.dll
+C:\Users\mkhoa\source\repos\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\MongoDB.Driver.Core.dll
+C:\Users\mkhoa\source\repos\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\MongoDB.Driver.dll
+C:\Users\mkhoa\source\repos\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\MongoDB.Libmongocrypt.dll
+C:\Users\mkhoa\source\repos\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\SharpCompress.dll
+C:\Users\mkhoa\source\repos\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\Snappier.dll
+C:\Users\mkhoa\source\repos\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\System.Buffers.dll
+C:\Users\mkhoa\source\repos\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\System.Memory.dll
+C:\Users\mkhoa\source\repos\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\mkhoa\source\repos\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\mkhoa\source\repos\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\System.Security.AccessControl.dll
+C:\Users\mkhoa\source\repos\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\mkhoa\source\repos\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\System.Text.Encoding.CodePages.dll
+C:\Users\mkhoa\source\repos\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\mkhoa\source\repos\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\ZstdSharp.dll
+C:\Users\mkhoa\source\repos\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\AWSSDK.Core.pdb
+C:\Users\mkhoa\source\repos\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\AWSSDK.Core.xml
+C:\Users\mkhoa\source\repos\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\AWSSDK.SecurityToken.pdb
+C:\Users\mkhoa\source\repos\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\AWSSDK.SecurityToken.xml
+C:\Users\mkhoa\source\repos\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\DnsClient.xml
+C:\Users\mkhoa\source\repos\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\mkhoa\source\repos\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\mkhoa\source\repos\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\Microsoft.Win32.Registry.xml
+C:\Users\mkhoa\source\repos\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\MongoDB.Bson.xml
+C:\Users\mkhoa\source\repos\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\MongoDB.Driver.xml
+C:\Users\mkhoa\source\repos\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\MongoDB.Driver.Core.xml
+C:\Users\mkhoa\source\repos\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\Snappier.xml
+C:\Users\mkhoa\source\repos\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\System.Buffers.xml
+C:\Users\mkhoa\source\repos\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\System.Memory.xml
+C:\Users\mkhoa\source\repos\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\mkhoa\source\repos\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\mkhoa\source\repos\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\System.Security.AccessControl.xml
+C:\Users\mkhoa\source\repos\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\System.Security.Principal.Windows.xml
+C:\Users\mkhoa\source\repos\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\System.Text.Encoding.CodePages.xml
+C:\Users\mkhoa\source\repos\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\mkhoa\source\repos\TapHoaThanhPhu\TapHoaThanhPhu\obj\Debug\TapHoaThanhPhu.csproj.AssemblyReference.cache
+C:\Users\mkhoa\source\repos\TapHoaThanhPhu\TapHoaThanhPhu\obj\Debug\TapHoaThanhPhu.frmDangNhap.resources
+C:\Users\mkhoa\source\repos\TapHoaThanhPhu\TapHoaThanhPhu\obj\Debug\TapHoaThanhPhu.Properties.Resources.resources
+C:\Users\mkhoa\source\repos\TapHoaThanhPhu\TapHoaThanhPhu\obj\Debug\TapHoaThanhPhu.csproj.GenerateResource.cache
+C:\Users\mkhoa\source\repos\TapHoaThanhPhu\TapHoaThanhPhu\obj\Debug\TapHoaThanhPhu.csproj.CoreCompileInputs.cache
+C:\Users\mkhoa\source\repos\TapHoaThanhPhu\TapHoaThanhPhu\obj\Debug\TapHoaThanhPhu.csproj.CopyComplete
+C:\Users\mkhoa\source\repos\TapHoaThanhPhu\TapHoaThanhPhu\obj\Debug\TapHoaThanhPhu.exe
+C:\Users\mkhoa\source\repos\TapHoaThanhPhu\TapHoaThanhPhu\obj\Debug\TapHoaThanhPhu.pdb
+C:\Users\mkhoa\source\repos\TapHoaThanhPhu\TapHoaThanhPhu\obj\Debug\TapHoaThanhPhu.frmQuanLy.resources
+C:\Users\mkhoa\OneDrive\Máy tính\TapHoaThanhPhu\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\mongocrypt.dll
+C:\Users\mkhoa\OneDrive\Máy tính\TapHoaThanhPhu\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\TapHoaThanhPhu.exe.config
+C:\Users\mkhoa\OneDrive\Máy tính\TapHoaThanhPhu\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\TapHoaThanhPhu.exe
+C:\Users\mkhoa\OneDrive\Máy tính\TapHoaThanhPhu\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\TapHoaThanhPhu.pdb
+C:\Users\mkhoa\OneDrive\Máy tính\TapHoaThanhPhu\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\AWSSDK.Core.dll
+C:\Users\mkhoa\OneDrive\Máy tính\TapHoaThanhPhu\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\AWSSDK.SecurityToken.dll
+C:\Users\mkhoa\OneDrive\Máy tính\TapHoaThanhPhu\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\DevExpress.Data.Desktop.v22.2.dll
+C:\Users\mkhoa\OneDrive\Máy tính\TapHoaThanhPhu\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\DevExpress.Data.v22.2.dll
+C:\Users\mkhoa\OneDrive\Máy tính\TapHoaThanhPhu\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\DevExpress.Drawing.v22.2.dll
+C:\Users\mkhoa\OneDrive\Máy tính\TapHoaThanhPhu\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\DevExpress.Utils.v22.2.dll
+C:\Users\mkhoa\OneDrive\Máy tính\TapHoaThanhPhu\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\DevExpress.XtraBars.v22.2.dll
+C:\Users\mkhoa\OneDrive\Máy tính\TapHoaThanhPhu\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\DevExpress.XtraEditors.v22.2.dll
+C:\Users\mkhoa\OneDrive\Máy tính\TapHoaThanhPhu\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\DnsClient.dll
+C:\Users\mkhoa\OneDrive\Máy tính\TapHoaThanhPhu\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\mkhoa\OneDrive\Máy tính\TapHoaThanhPhu\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\mkhoa\OneDrive\Máy tính\TapHoaThanhPhu\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\Microsoft.Win32.Registry.dll
+C:\Users\mkhoa\OneDrive\Máy tính\TapHoaThanhPhu\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\MongoDB.Bson.dll
+C:\Users\mkhoa\OneDrive\Máy tính\TapHoaThanhPhu\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\MongoDB.Driver.Core.dll
+C:\Users\mkhoa\OneDrive\Máy tính\TapHoaThanhPhu\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\MongoDB.Driver.dll
+C:\Users\mkhoa\OneDrive\Máy tính\TapHoaThanhPhu\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\MongoDB.Libmongocrypt.dll
+C:\Users\mkhoa\OneDrive\Máy tính\TapHoaThanhPhu\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\SharpCompress.dll
+C:\Users\mkhoa\OneDrive\Máy tính\TapHoaThanhPhu\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\Snappier.dll
+C:\Users\mkhoa\OneDrive\Máy tính\TapHoaThanhPhu\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\System.Buffers.dll
+C:\Users\mkhoa\OneDrive\Máy tính\TapHoaThanhPhu\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\System.Memory.dll
+C:\Users\mkhoa\OneDrive\Máy tính\TapHoaThanhPhu\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\mkhoa\OneDrive\Máy tính\TapHoaThanhPhu\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\mkhoa\OneDrive\Máy tính\TapHoaThanhPhu\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\System.Security.AccessControl.dll
+C:\Users\mkhoa\OneDrive\Máy tính\TapHoaThanhPhu\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\mkhoa\OneDrive\Máy tính\TapHoaThanhPhu\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\System.Text.Encoding.CodePages.dll
+C:\Users\mkhoa\OneDrive\Máy tính\TapHoaThanhPhu\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\mkhoa\OneDrive\Máy tính\TapHoaThanhPhu\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\ZstdSharp.dll
+C:\Users\mkhoa\OneDrive\Máy tính\TapHoaThanhPhu\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\DevExpress.Printing.v22.2.Core.dll
+C:\Users\mkhoa\OneDrive\Máy tính\TapHoaThanhPhu\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\DevExpress.Sparkline.v22.2.Core.dll
+C:\Users\mkhoa\OneDrive\Máy tính\TapHoaThanhPhu\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\DevExpress.Pdf.v22.2.Core.dll
+C:\Users\mkhoa\OneDrive\Máy tính\TapHoaThanhPhu\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\DevExpress.Pdf.v22.2.Drawing.dll
+C:\Users\mkhoa\OneDrive\Máy tính\TapHoaThanhPhu\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\AWSSDK.Core.pdb
+C:\Users\mkhoa\OneDrive\Máy tính\TapHoaThanhPhu\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\AWSSDK.Core.xml
+C:\Users\mkhoa\OneDrive\Máy tính\TapHoaThanhPhu\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\AWSSDK.SecurityToken.pdb
+C:\Users\mkhoa\OneDrive\Máy tính\TapHoaThanhPhu\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\AWSSDK.SecurityToken.xml
+C:\Users\mkhoa\OneDrive\Máy tính\TapHoaThanhPhu\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\DevExpress.Data.Desktop.v22.2.xml
+C:\Users\mkhoa\OneDrive\Máy tính\TapHoaThanhPhu\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\DevExpress.Data.v22.2.xml
+C:\Users\mkhoa\OneDrive\Máy tính\TapHoaThanhPhu\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\DevExpress.Utils.v22.2.xml
+C:\Users\mkhoa\OneDrive\Máy tính\TapHoaThanhPhu\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\DevExpress.XtraBars.v22.2.xml
+C:\Users\mkhoa\OneDrive\Máy tính\TapHoaThanhPhu\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\DevExpress.XtraEditors.v22.2.xml
+C:\Users\mkhoa\OneDrive\Máy tính\TapHoaThanhPhu\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\DnsClient.xml
+C:\Users\mkhoa\OneDrive\Máy tính\TapHoaThanhPhu\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\mkhoa\OneDrive\Máy tính\TapHoaThanhPhu\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\mkhoa\OneDrive\Máy tính\TapHoaThanhPhu\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\Microsoft.Win32.Registry.xml
+C:\Users\mkhoa\OneDrive\Máy tính\TapHoaThanhPhu\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\MongoDB.Bson.xml
+C:\Users\mkhoa\OneDrive\Máy tính\TapHoaThanhPhu\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\MongoDB.Driver.xml
+C:\Users\mkhoa\OneDrive\Máy tính\TapHoaThanhPhu\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\MongoDB.Driver.Core.xml
+C:\Users\mkhoa\OneDrive\Máy tính\TapHoaThanhPhu\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\Snappier.xml
+C:\Users\mkhoa\OneDrive\Máy tính\TapHoaThanhPhu\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\System.Buffers.xml
+C:\Users\mkhoa\OneDrive\Máy tính\TapHoaThanhPhu\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\System.Memory.xml
+C:\Users\mkhoa\OneDrive\Máy tính\TapHoaThanhPhu\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\mkhoa\OneDrive\Máy tính\TapHoaThanhPhu\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\mkhoa\OneDrive\Máy tính\TapHoaThanhPhu\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\System.Security.AccessControl.xml
+C:\Users\mkhoa\OneDrive\Máy tính\TapHoaThanhPhu\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\System.Security.Principal.Windows.xml
+C:\Users\mkhoa\OneDrive\Máy tính\TapHoaThanhPhu\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\System.Text.Encoding.CodePages.xml
+C:\Users\mkhoa\OneDrive\Máy tính\TapHoaThanhPhu\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\mkhoa\OneDrive\Máy tính\TapHoaThanhPhu\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\DevExpress.Printing.v22.2.Core.xml
+C:\Users\mkhoa\OneDrive\Máy tính\TapHoaThanhPhu\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\DevExpress.Sparkline.v22.2.Core.xml
+C:\Users\mkhoa\OneDrive\Máy tính\TapHoaThanhPhu\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\DevExpress.Pdf.v22.2.Core.xml
+C:\Users\mkhoa\OneDrive\Máy tính\TapHoaThanhPhu\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\DevExpress.Pdf.v22.2.Drawing.xml
+C:\Users\mkhoa\OneDrive\Máy tính\TapHoaThanhPhu\TapHoaThanhPhu\TapHoaThanhPhu\obj\Debug\TapHoaThanhPhu.csproj.AssemblyReference.cache
+C:\Users\mkhoa\OneDrive\Máy tính\TapHoaThanhPhu\TapHoaThanhPhu\TapHoaThanhPhu\obj\Debug\TapHoaThanhPhu.frmDangNhap.resources
+C:\Users\mkhoa\OneDrive\Máy tính\TapHoaThanhPhu\TapHoaThanhPhu\TapHoaThanhPhu\obj\Debug\TapHoaThanhPhu.Properties.Resources.resources
+C:\Users\mkhoa\OneDrive\Máy tính\TapHoaThanhPhu\TapHoaThanhPhu\TapHoaThanhPhu\obj\Debug\TapHoaThanhPhu.csproj.GenerateResource.cache
+C:\Users\mkhoa\OneDrive\Máy tính\TapHoaThanhPhu\TapHoaThanhPhu\TapHoaThanhPhu\obj\Debug\TapHoaThanhPhu.csproj.CoreCompileInputs.cache
+C:\Users\mkhoa\OneDrive\Máy tính\TapHoaThanhPhu\TapHoaThanhPhu\TapHoaThanhPhu\obj\Debug\TapHoaThanhPhu.csproj.CopyComplete
+C:\Users\mkhoa\OneDrive\Máy tính\TapHoaThanhPhu\TapHoaThanhPhu\TapHoaThanhPhu\obj\Debug\TapHoaThanhPhu.exe
+C:\Users\mkhoa\OneDrive\Máy tính\TapHoaThanhPhu\TapHoaThanhPhu\TapHoaThanhPhu\obj\Debug\TapHoaThanhPhu.pdb
+C:\Users\mkhoa\OneDrive\Máy tính\TapHoaThanhPhu\TapHoaThanhPhu\TapHoaThanhPhu\obj\Debug\TapHoaThanhPhu.Forms.frmQuenMatKhau.resources
+C:\Users\mkhoa\OneDrive\Máy tính\TapHoaThanhPhu\TapHoaThanhPhu\TapHoaThanhPhu\obj\Debug\TapHoaThanhPhu.Forms.frmQuanLy.resources
+C:\Users\mkhoa\OneDrive\Máy tính\TapHoaThanhPhu\TapHoaThanhPhu\TapHoaThanhPhu\obj\Debug\TapHoaThanhPhu.GiaoDien.ucDanhSachTaiKhoan.resources
+C:\Users\mkhoa\OneDrive\Máy tính\TapHoaThanhPhu\TapHoaThanhPhu\TapHoaThanhPhu\obj\Debug\TapHoaThanhPhu.GiaoDien.ucThemThaiKhoan.resources
+C:\Users\mkhoa\OneDrive\Máy tính\TapHoaThanhPhu\TapHoaThanhPhu\TapHoaThanhPhu\obj\Debug\TapHoaThanhPhu.Forms.frmSuaTaiKhoanQuanLy.resources
+<<<<<<< HEAD
+C:\Users\mkhoa\OneDrive\Máy tính\TapHoaThanhPhu\TapHoaThanhPhu\TapHoaThanhPhu\obj\Debug\TapHoaThanhPhu.Forms.frmNhanVien.resources
+=======
+C:\Users\TUAN\OneDrive\Máy tính\git\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\mongocrypt.dll
+C:\Users\TUAN\OneDrive\Máy tính\git\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\TapHoaThanhPhu.exe.config
+C:\Users\TUAN\OneDrive\Máy tính\git\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\TapHoaThanhPhu.exe
+C:\Users\TUAN\OneDrive\Máy tính\git\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\TapHoaThanhPhu.pdb
+C:\Users\TUAN\OneDrive\Máy tính\git\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\AWSSDK.Core.dll
+C:\Users\TUAN\OneDrive\Máy tính\git\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\AWSSDK.SecurityToken.dll
+C:\Users\TUAN\OneDrive\Máy tính\git\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\DevExpress.Data.Desktop.v22.2.dll
+C:\Users\TUAN\OneDrive\Máy tính\git\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\DevExpress.Data.v22.2.dll
+C:\Users\TUAN\OneDrive\Máy tính\git\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\DevExpress.Drawing.v22.2.dll
+C:\Users\TUAN\OneDrive\Máy tính\git\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\DevExpress.Printing.v22.2.Core.dll
+C:\Users\TUAN\OneDrive\Máy tính\git\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\DevExpress.Utils.v22.2.dll
+C:\Users\TUAN\OneDrive\Máy tính\git\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\DevExpress.XtraBars.v22.2.dll
+C:\Users\TUAN\OneDrive\Máy tính\git\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\DevExpress.XtraEditors.v22.2.dll
+C:\Users\TUAN\OneDrive\Máy tính\git\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\DnsClient.dll
+C:\Users\TUAN\OneDrive\Máy tính\git\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\TUAN\OneDrive\Máy tính\git\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\TUAN\OneDrive\Máy tính\git\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\Microsoft.Win32.Registry.dll
+C:\Users\TUAN\OneDrive\Máy tính\git\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\MongoDB.Bson.dll
+C:\Users\TUAN\OneDrive\Máy tính\git\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\MongoDB.Driver.Core.dll
+C:\Users\TUAN\OneDrive\Máy tính\git\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\MongoDB.Driver.dll
+C:\Users\TUAN\OneDrive\Máy tính\git\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\MongoDB.Libmongocrypt.dll
+C:\Users\TUAN\OneDrive\Máy tính\git\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\SharpCompress.dll
+C:\Users\TUAN\OneDrive\Máy tính\git\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\Snappier.dll
+C:\Users\TUAN\OneDrive\Máy tính\git\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\System.Buffers.dll
+C:\Users\TUAN\OneDrive\Máy tính\git\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\System.Memory.dll
+C:\Users\TUAN\OneDrive\Máy tính\git\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\TUAN\OneDrive\Máy tính\git\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\TUAN\OneDrive\Máy tính\git\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\System.Security.AccessControl.dll
+C:\Users\TUAN\OneDrive\Máy tính\git\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\TUAN\OneDrive\Máy tính\git\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\System.Text.Encoding.CodePages.dll
+C:\Users\TUAN\OneDrive\Máy tính\git\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\TUAN\OneDrive\Máy tính\git\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\ZstdSharp.dll
+C:\Users\TUAN\OneDrive\Máy tính\git\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\DevExpress.Pdf.v22.2.Core.dll
+C:\Users\TUAN\OneDrive\Máy tính\git\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\DevExpress.Pdf.v22.2.Drawing.dll
+C:\Users\TUAN\OneDrive\Máy tính\git\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\DevExpress.Sparkline.v22.2.Core.dll
+C:\Users\TUAN\OneDrive\Máy tính\git\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\AWSSDK.Core.pdb
+C:\Users\TUAN\OneDrive\Máy tính\git\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\AWSSDK.Core.xml
+C:\Users\TUAN\OneDrive\Máy tính\git\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\AWSSDK.SecurityToken.pdb
+C:\Users\TUAN\OneDrive\Máy tính\git\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\AWSSDK.SecurityToken.xml
+C:\Users\TUAN\OneDrive\Máy tính\git\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\DevExpress.Data.Desktop.v22.2.xml
+C:\Users\TUAN\OneDrive\Máy tính\git\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\DevExpress.Data.v22.2.xml
+C:\Users\TUAN\OneDrive\Máy tính\git\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\DevExpress.Printing.v22.2.Core.xml
+C:\Users\TUAN\OneDrive\Máy tính\git\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\DevExpress.Utils.v22.2.xml
+C:\Users\TUAN\OneDrive\Máy tính\git\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\DevExpress.XtraBars.v22.2.xml
+C:\Users\TUAN\OneDrive\Máy tính\git\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\DevExpress.XtraEditors.v22.2.xml
+C:\Users\TUAN\OneDrive\Máy tính\git\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\DnsClient.xml
+C:\Users\TUAN\OneDrive\Máy tính\git\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\TUAN\OneDrive\Máy tính\git\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\TUAN\OneDrive\Máy tính\git\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\Microsoft.Win32.Registry.xml
+C:\Users\TUAN\OneDrive\Máy tính\git\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\MongoDB.Bson.xml
+C:\Users\TUAN\OneDrive\Máy tính\git\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\MongoDB.Driver.xml
+C:\Users\TUAN\OneDrive\Máy tính\git\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\MongoDB.Driver.Core.xml
+C:\Users\TUAN\OneDrive\Máy tính\git\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\Snappier.xml
+C:\Users\TUAN\OneDrive\Máy tính\git\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\System.Buffers.xml
+C:\Users\TUAN\OneDrive\Máy tính\git\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\System.Memory.xml
+C:\Users\TUAN\OneDrive\Máy tính\git\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\TUAN\OneDrive\Máy tính\git\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\TUAN\OneDrive\Máy tính\git\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\System.Security.AccessControl.xml
+C:\Users\TUAN\OneDrive\Máy tính\git\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\System.Security.Principal.Windows.xml
+C:\Users\TUAN\OneDrive\Máy tính\git\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\System.Text.Encoding.CodePages.xml
+C:\Users\TUAN\OneDrive\Máy tính\git\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\TUAN\OneDrive\Máy tính\git\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\DevExpress.Pdf.v22.2.Core.xml
+C:\Users\TUAN\OneDrive\Máy tính\git\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\DevExpress.Pdf.v22.2.Drawing.xml
+C:\Users\TUAN\OneDrive\Máy tính\git\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\DevExpress.Sparkline.v22.2.Core.xml
+C:\Users\TUAN\OneDrive\Máy tính\git\TapHoaThanhPhu\TapHoaThanhPhu\obj\Debug\TapHoaThanhPhu.csproj.AssemblyReference.cache
+C:\Users\TUAN\OneDrive\Máy tính\git\TapHoaThanhPhu\TapHoaThanhPhu\obj\Debug\TapHoaThanhPhu.frmDangNhap.resources
+C:\Users\TUAN\OneDrive\Máy tính\git\TapHoaThanhPhu\TapHoaThanhPhu\obj\Debug\TapHoaThanhPhu.Forms.frmNhanVien.resources
+C:\Users\TUAN\OneDrive\Máy tính\git\TapHoaThanhPhu\TapHoaThanhPhu\obj\Debug\TapHoaThanhPhu.Forms.frmQuanLy.resources
+C:\Users\TUAN\OneDrive\Máy tính\git\TapHoaThanhPhu\TapHoaThanhPhu\obj\Debug\TapHoaThanhPhu.Forms.frmQuenMatKhau.resources
+C:\Users\TUAN\OneDrive\Máy tính\git\TapHoaThanhPhu\TapHoaThanhPhu\obj\Debug\TapHoaThanhPhu.Forms.frmSuaTaiKhoanQuanLy.resources
+C:\Users\TUAN\OneDrive\Máy tính\git\TapHoaThanhPhu\TapHoaThanhPhu\obj\Debug\TapHoaThanhPhu.GiaoDien.ucDanhSachTaiKhoan.resources
+C:\Users\TUAN\OneDrive\Máy tính\git\TapHoaThanhPhu\TapHoaThanhPhu\obj\Debug\TapHoaThanhPhu.GiaoDien.ucMatHang.resources
+C:\Users\TUAN\OneDrive\Máy tính\git\TapHoaThanhPhu\TapHoaThanhPhu\obj\Debug\TapHoaThanhPhu.GiaoDien.ucThemThaiKhoan.resources
+C:\Users\TUAN\OneDrive\Máy tính\git\TapHoaThanhPhu\TapHoaThanhPhu\obj\Debug\TapHoaThanhPhu.Properties.Resources.resources
+C:\Users\TUAN\OneDrive\Máy tính\git\TapHoaThanhPhu\TapHoaThanhPhu\obj\Debug\TapHoaThanhPhu.csproj.GenerateResource.cache
+C:\Users\TUAN\OneDrive\Máy tính\git\TapHoaThanhPhu\TapHoaThanhPhu\obj\Debug\TapHoaThanhPhu.csproj.CoreCompileInputs.cache
+C:\Users\TUAN\OneDrive\Máy tính\git\TapHoaThanhPhu\TapHoaThanhPhu\obj\Debug\TapHoaThanhPhu.csproj.CopyComplete
+C:\Users\TUAN\OneDrive\Máy tính\git\TapHoaThanhPhu\TapHoaThanhPhu\obj\Debug\TapHoaThanhPhu.exe
+C:\Users\TUAN\OneDrive\Máy tính\git\TapHoaThanhPhu\TapHoaThanhPhu\obj\Debug\TapHoaThanhPhu.pdb
+C:\Users\TUAN\OneDrive\Máy tính\git\TapHoaThanhPhu\TapHoaThanhPhu\obj\Debug\TapHoaThanhPhu.GiaoDien.ucNhanVien.resources
+C:\Users\TUAN\OneDrive\Máy tính\git\TapHoaThanhPhu\TapHoaThanhPhu\obj\Debug\TapHoaThanhPhu.GiaoDien.ucHoaDon.resources
+>>>>>>> 357a4a32a658d7423ac9559d2e8b941c36953c6e
+C:\Users\mkhoa\OneDrive\Máy tính\TapHoaThanhPhu\TapHoaThanhPhu\TapHoaThanhPhu\obj\Debug\TapHoaThanhPhu.GiaoDien.ucHoaDon.resources
+C:\Users\mkhoa\OneDrive\Máy tính\TapHoaThanhPhu\TapHoaThanhPhu\TapHoaThanhPhu\obj\Debug\TapHoaThanhPhu.GiaoDien.ucMatHang.resources
+C:\Users\mkhoa\OneDrive\Máy tính\TapHoaThanhPhu\TapHoaThanhPhu\TapHoaThanhPhu\obj\Debug\TapHoaThanhPhu.GiaoDien.ucNhanVien.resources
