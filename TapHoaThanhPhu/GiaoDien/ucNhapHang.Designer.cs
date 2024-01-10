@@ -31,29 +31,8 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-<<<<<<< HEAD
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.dgvTenHangNhap = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dgvSoLuong = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.txtSoLuong = new System.Windows.Forms.TextBox();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.dgvTenHang = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dgvGiaBan = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dgvDonVi = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.label1 = new System.Windows.Forms.Label();
-            this.btnNhap = new System.Windows.Forms.Button();
-            this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            this.groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
-=======
+
+
             this.dgvHoaDon = new System.Windows.Forms.DataGridView();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.label6 = new System.Windows.Forms.Label();
@@ -75,17 +54,14 @@
             ((System.ComponentModel.ISupportInitialize)(this.dgvHoaDon)).BeginInit();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvHangHoa)).BeginInit();
->>>>>>> ec26b9d6215d65a69f221628a0665dac380a8c7b
+
             this.SuspendLayout();
             // 
             // groupBox1
             // 
-<<<<<<< HEAD
-            this.groupBox1.Controls.Add(this.dataGridView1);
-            this.groupBox1.Controls.Add(this.button2);
-=======
+
             this.groupBox1.Controls.Add(this.dgvHoaDon);
->>>>>>> ec26b9d6215d65a69f221628a0665dac380a8c7b
+
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(58, 91);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
@@ -95,13 +71,8 @@
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Sản Phẩm Cần Nhập";
-            // 
-<<<<<<< HEAD
-            // dataGridView1
-            // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-=======
+
+     
             // dgvHoaDon
             // 
             this.dgvHoaDon.AllowUserToAddRows = false;
@@ -115,7 +86,7 @@
             this.dgvHoaDon.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
             this.dgvHoaDon.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvHoaDon.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
->>>>>>> ec26b9d6215d65a69f221628a0665dac380a8c7b
+
             this.dgvTenHangNhap,
             this.dgvSoLuong,
             this.Column1});
@@ -127,41 +98,7 @@
             this.dgvHoaDon.Size = new System.Drawing.Size(354, 310);
             this.dgvHoaDon.TabIndex = 0;
             // 
-<<<<<<< HEAD
-            // dgvTenHangNhap
-            // 
-            this.dgvTenHangNhap.HeaderText = "Tên Hàng ";
-            this.dgvTenHangNhap.MinimumWidth = 6;
-            this.dgvTenHangNhap.Name = "dgvTenHangNhap";
-            this.dgvTenHangNhap.Width = 125;
-            // 
-            // dgvSoLuong
-            // 
-            this.dgvSoLuong.HeaderText = "Số Lượng";
-            this.dgvSoLuong.MinimumWidth = 6;
-            this.dgvSoLuong.Name = "dgvSoLuong";
-            this.dgvSoLuong.Width = 125;
-            // 
-            // Column1
-            // 
-            this.Column1.HeaderText = "Đơn Vị";
-            this.Column1.MinimumWidth = 6;
-            this.Column1.Name = "Column1";
-            this.Column1.Width = 125;
-            // 
-            // groupBox2
-            // 
-            this.groupBox2.Controls.Add(this.label6);
-            this.groupBox2.Controls.Add(this.txtSoLuong);
-            this.groupBox2.Controls.Add(this.button3);
-            this.groupBox2.Controls.Add(this.textBox1);
-            this.groupBox2.Controls.Add(this.button1);
-            this.groupBox2.Controls.Add(this.dataGridView2);
-            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(588, 113);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(521, 467);
-=======
+
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.label4);
@@ -176,7 +113,7 @@
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox2.Size = new System.Drawing.Size(391, 379);
->>>>>>> ec26b9d6215d65a69f221628a0665dac380a8c7b
+
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Danh Sách Chọn";
@@ -203,16 +140,7 @@
             // 
             // btnThem
             // 
-<<<<<<< HEAD
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(27, 120);
-            this.button3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(107, 36);
-            this.button3.TabIndex = 31;
-            this.button3.Text = "➕Thêm➕";
-            this.button3.UseVisualStyleBackColor = true;
-=======
+
             this.btnThem.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnThem.Location = new System.Drawing.Point(306, 39);
             this.btnThem.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
@@ -221,20 +149,12 @@
             this.btnThem.TabIndex = 31;
             this.btnThem.Text = "➕Thêm➕";
             this.btnThem.UseVisualStyleBackColor = true;
->>>>>>> ec26b9d6215d65a69f221628a0665dac380a8c7b
+
             // 
             // btnXoa
             // 
-<<<<<<< HEAD
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(365, 25);
-            this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(107, 36);
-            this.button2.TabIndex = 30;
-            this.button2.Text = "❌Xóa ❌";
-            this.button2.UseVisualStyleBackColor = true;
-=======
+
+           
             this.btnXoa.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnXoa.Location = new System.Drawing.Point(344, 476);
             this.btnXoa.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
@@ -243,7 +163,7 @@
             this.btnXoa.TabIndex = 30;
             this.btnXoa.Text = "❌Xóa ❌";
             this.btnXoa.UseVisualStyleBackColor = true;
->>>>>>> ec26b9d6215d65a69f221628a0665dac380a8c7b
+
             // 
             // txtTimKiem
             // 
@@ -278,25 +198,10 @@
             this.dgvHangHoa.Size = new System.Drawing.Size(366, 251);
             this.dgvHangHoa.TabIndex = 0;
             // 
-<<<<<<< HEAD
-            // dataGridView2
-            // 
-            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dgvTenHang,
-            this.dgvGiaBan,
-            this.dgvDonVi});
-            this.dataGridView2.Location = new System.Drawing.Point(27, 172);
-            this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.RowHeadersWidth = 51;
-            this.dataGridView2.RowTemplate.Height = 24;
-            this.dataGridView2.Size = new System.Drawing.Size(488, 274);
-            this.dataGridView2.TabIndex = 0;
-            // 
-            // dgvTenHang
-=======
+
+            
             // label1
->>>>>>> ec26b9d6215d65a69f221628a0665dac380a8c7b
+
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -329,10 +234,7 @@
             this.label4.Size = new System.Drawing.Size(71, 18);
             this.label4.TabIndex = 35;
             this.label4.Text = "Tìm Kiếm";
-            // 
-<<<<<<< HEAD
-            // label1
-=======
+ 
             // dgvTenHangNhap
             // 
             this.dgvTenHangNhap.HeaderText = "Tên Hàng ";
@@ -353,7 +255,7 @@
             this.Column1.Name = "Column1";
             // 
             // dgvTenHang
->>>>>>> ec26b9d6215d65a69f221628a0665dac380a8c7b
+
             // 
             this.dgvTenHang.HeaderText = "Tên Hàng";
             this.dgvTenHang.MinimumWidth = 6;
@@ -385,18 +287,7 @@
             this.Name = "ucNhapHang";
             this.Size = new System.Drawing.Size(862, 578);
             this.Load += new System.EventHandler(this.ucNhapHang_Load);
-            this.groupBox1.ResumeLayout(false);
-<<<<<<< HEAD
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
-=======
-            ((System.ComponentModel.ISupportInitialize)(this.dgvHoaDon)).EndInit();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvHangHoa)).EndInit();
->>>>>>> ec26b9d6215d65a69f221628a0665dac380a8c7b
+
             this.ResumeLayout(false);
             this.PerformLayout();
 
