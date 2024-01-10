@@ -64,6 +64,8 @@ namespace TapHoaThanhPhu.GiaoDien
             collectionMatHang.InsertOne(matHang);
 
             MessageBox.Show("Thêm mặt hàng thành công!");
+            dataMatHang = collectionMatHang.Find(a => true).ToList();
+
             loadDGV(dataMatHang);
             return;
         }
@@ -91,6 +93,8 @@ namespace TapHoaThanhPhu.GiaoDien
             if (MessageBox.Show("Bạn có chắc muốn xóa mặt hàng này?", "Thông báo!", MessageBoxButtons.YesNo) == DialogResult.Yes)
             {
                 collectionMatHang.FindOneAndDelete(a => a.Ten == dgvShow.SelectedRows[0].Cells[0].Value.ToString());
+                dataMatHang = collectionMatHang.Find(a => true).ToList();
+
                 loadDGV(dataMatHang);
                 MessageBox.Show("Xóa thành công mặt hàng!");
             }
@@ -114,6 +118,8 @@ namespace TapHoaThanhPhu.GiaoDien
                 matHang.GiaBan = int.Parse(txtGiaBan.Text);
 
                 collectionMatHang.ReplaceOne(a => a.Ten == dgvShow.SelectedRows[0].Cells[0].Value.ToString(), matHang);
+                dataMatHang = collectionMatHang.Find(a => true).ToList();
+
                 MessageBox.Show("Sửa thành công mặt hàng!");
                 loadDGV(dataMatHang);
 
