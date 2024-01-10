@@ -17,17 +17,22 @@ namespace TapHoaThanhPhu.GiaoDien
         private IMongoClient client = new MongoClient("mongodb://localhost:27017");
         private IMongoDatabase database;
         private IMongoCollection<MatHang> collectionMatHang;
+        private List<MatHang> dataMatHang;
         public ucMatHang()
         {
             InitializeComponent();
             database = client.GetDatabase("TapHoaThanhPhu");
             collectionMatHang = database.GetCollection<MatHang>("MatHang");
-            loadDGV();
+        }
+        private void ucMatHang_Load(object sender, EventArgs e)
+        {
+            dataMatHang = collectionMatHang.Find(a => true).ToList();
+            loadDGV(dataMatHang);
         }
 
-        private void loadDGV()
+        private void loadDGV(List<MatHang> dataMatHang)
         {
-            var dataMatHang = collectionMatHang.Find(a => true).ToList();
+            dgvShow.Rows.Clear();
             foreach (var item in dataMatHang)
             {
                 int index = dgvShow.Rows.Add();
@@ -54,12 +59,12 @@ namespace TapHoaThanhPhu.GiaoDien
             matHang.DonVi = txtDonVi.Text;
             matHang.SoLuong = int.Parse(txtSoLuong.Text);
             matHang.GiaBan = int.Parse(txtGiaBan.Text);
-            matHang.GiaNhap = int.Parse(txtGiaBan.Text);
+            matHang.GiaNhap = int.Parse(txtGiaNhap.Text);
             matHang.GhiChu = txtGhiChu.Text;
             collectionMatHang.InsertOne(matHang);
 
             MessageBox.Show("Thêm mặt hàng thành công!");
-            loadDGV();
+            loadDGV(dataMatHang);
             return;
         }
 
@@ -86,7 +91,7 @@ namespace TapHoaThanhPhu.GiaoDien
             if (MessageBox.Show("Bạn có chắc muốn xóa mặt hàng này?", "Thông báo!", MessageBoxButtons.YesNo) == DialogResult.Yes)
             {
                 collectionMatHang.FindOneAndDelete(a => a.Ten == dgvShow.SelectedRows[0].Cells[0].Value.ToString());
-                loadDGV();
+                loadDGV(dataMatHang);
                 MessageBox.Show("Xóa thành công mặt hàng!");
             }
         }
@@ -110,10 +115,24 @@ namespace TapHoaThanhPhu.GiaoDien
 
                 collectionMatHang.ReplaceOne(a => a.Ten == dgvShow.SelectedRows[0].Cells[0].Value.ToString(), matHang);
                 MessageBox.Show("Sửa thành công mặt hàng!");
-                loadDGV();
+                loadDGV(dataMatHang);
 
                 return;
             }
         }
+
+        private void txtTimKiem_TextChanged(object sender, EventArgs e)
+        {
+            if (txtTimKiem.Text.Length == 0)
+            {
+                loadDGV(dataMatHang);
+            }
+            else
+            {
+                var dataTimKiem = collectionMatHang.Find(a => a.Ten.Contains(txtTimKiem.Text)).ToList();
+                loadDGV(dataTimKiem);
+            }
+        }
+
     }
 }

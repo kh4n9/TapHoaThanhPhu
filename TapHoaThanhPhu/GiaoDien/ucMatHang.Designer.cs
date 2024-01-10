@@ -40,21 +40,19 @@
             this.txtGhiChu = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.dgvShow = new System.Windows.Forms.DataGridView();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.txtTimKiem = new System.Windows.Forms.TextBox();
-            this.btnTimKiem = new System.Windows.Forms.Button();
-            this.btnDong = new System.Windows.Forms.Button();
-            this.btnDanhSach = new System.Windows.Forms.Button();
-            this.btnSua = new System.Windows.Forms.Button();
-            this.btnXoa = new System.Windows.Forms.Button();
-            this.txtDonVi = new System.Windows.Forms.TextBox();
             this.dgvTenHang = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dvgĐVT = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dgvSoLuong = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.giaNhap = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dgvGiaBan = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.txtTimKiem = new System.Windows.Forms.TextBox();
+            this.btnSua = new System.Windows.Forms.Button();
+            this.btnXoa = new System.Windows.Forms.Button();
+            this.txtDonVi = new System.Windows.Forms.TextBox();
             this.txtGiaNhap = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgvShow)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -63,7 +61,7 @@
             // 
             this.btnThem.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnThem.Location = new System.Drawing.Point(19, 21);
-            this.btnThem.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnThem.Margin = new System.Windows.Forms.Padding(2);
             this.btnThem.Name = "btnThem";
             this.btnThem.Size = new System.Drawing.Size(80, 29);
             this.btnThem.TabIndex = 0;
@@ -87,7 +85,7 @@
             // 
             this.txtTenHang.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTenHang.Location = new System.Drawing.Point(118, 67);
-            this.txtTenHang.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtTenHang.Margin = new System.Windows.Forms.Padding(2);
             this.txtTenHang.Name = "txtTenHang";
             this.txtTenHang.Size = new System.Drawing.Size(286, 24);
             this.txtTenHang.TabIndex = 3;
@@ -118,7 +116,7 @@
             // 
             this.txtSoLuong.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtSoLuong.Location = new System.Drawing.Point(118, 133);
-            this.txtSoLuong.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtSoLuong.Margin = new System.Windows.Forms.Padding(2);
             this.txtSoLuong.Name = "txtSoLuong";
             this.txtSoLuong.Size = new System.Drawing.Size(286, 24);
             this.txtSoLuong.TabIndex = 3;
@@ -138,7 +136,7 @@
             // 
             this.txtGiaBan.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtGiaBan.Location = new System.Drawing.Point(118, 199);
-            this.txtGiaBan.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtGiaBan.Margin = new System.Windows.Forms.Padding(2);
             this.txtGiaBan.Name = "txtGiaBan";
             this.txtGiaBan.Size = new System.Drawing.Size(286, 24);
             this.txtGiaBan.TabIndex = 3;
@@ -158,7 +156,7 @@
             // 
             this.txtGhiChu.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtGhiChu.Location = new System.Drawing.Point(601, 87);
-            this.txtGhiChu.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtGhiChu.Margin = new System.Windows.Forms.Padding(2);
             this.txtGhiChu.Multiline = true;
             this.txtGhiChu.Name = "txtGhiChu";
             this.txtGhiChu.Size = new System.Drawing.Size(120, 105);
@@ -186,7 +184,7 @@
             this.giaNhap,
             this.dgvGiaBan});
             this.dgvShow.Location = new System.Drawing.Point(70, 230);
-            this.dgvShow.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dgvShow.Margin = new System.Windows.Forms.Padding(2);
             this.dgvShow.Name = "dgvShow";
             this.dgvShow.RowHeadersWidth = 51;
             this.dgvShow.RowTemplate.Height = 24;
@@ -194,96 +192,6 @@
             this.dgvShow.Size = new System.Drawing.Size(652, 284);
             this.dgvShow.TabIndex = 6;
             this.dgvShow.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvShow_CellClick);
-            // 
-            // panel1
-            // 
-            this.panel1.Controls.Add(this.txtTimKiem);
-            this.panel1.Controls.Add(this.btnTimKiem);
-            this.panel1.Controls.Add(this.btnDong);
-            this.panel1.Controls.Add(this.btnDanhSach);
-            this.panel1.Controls.Add(this.btnSua);
-            this.panel1.Controls.Add(this.btnXoa);
-            this.panel1.Controls.Add(this.btnThem);
-            this.panel1.Location = new System.Drawing.Point(2, 518);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(838, 69);
-            this.panel1.TabIndex = 7;
-            // 
-            // txtTimKiem
-            // 
-            this.txtTimKiem.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTimKiem.Location = new System.Drawing.Point(615, 24);
-            this.txtTimKiem.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.txtTimKiem.Name = "txtTimKiem";
-            this.txtTimKiem.Size = new System.Drawing.Size(164, 24);
-            this.txtTimKiem.TabIndex = 4;
-            // 
-            // btnTimKiem
-            // 
-            this.btnTimKiem.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTimKiem.Location = new System.Drawing.Point(512, 21);
-            this.btnTimKiem.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.btnTimKiem.Name = "btnTimKiem";
-            this.btnTimKiem.Size = new System.Drawing.Size(95, 29);
-            this.btnTimKiem.TabIndex = 0;
-            this.btnTimKiem.Text = "🔍Tìm Kiếm🔍";
-            this.btnTimKiem.UseVisualStyleBackColor = true;
-            // 
-            // btnDong
-            // 
-            this.btnDong.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDong.Location = new System.Drawing.Point(419, 21);
-            this.btnDong.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.btnDong.Name = "btnDong";
-            this.btnDong.Size = new System.Drawing.Size(85, 29);
-            this.btnDong.TabIndex = 0;
-            this.btnDong.Text = "🔒Đóng🔒";
-            this.btnDong.UseVisualStyleBackColor = true;
-            // 
-            // btnDanhSach
-            // 
-            this.btnDanhSach.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDanhSach.Location = new System.Drawing.Point(283, 21);
-            this.btnDanhSach.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.btnDanhSach.Name = "btnDanhSach";
-            this.btnDanhSach.Size = new System.Drawing.Size(128, 29);
-            this.btnDanhSach.TabIndex = 0;
-            this.btnDanhSach.Text = "📝Danh Sách📝";
-            this.btnDanhSach.UseVisualStyleBackColor = true;
-            // 
-            // btnSua
-            // 
-            this.btnSua.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSua.Location = new System.Drawing.Point(195, 21);
-            this.btnSua.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.btnSua.Name = "btnSua";
-            this.btnSua.Size = new System.Drawing.Size(80, 29);
-            this.btnSua.TabIndex = 0;
-            this.btnSua.Text = "🔧 Sửa 🔧";
-            this.btnSua.UseVisualStyleBackColor = true;
-            this.btnSua.Click += new System.EventHandler(this.btnSua_Click);
-            // 
-            // btnXoa
-            // 
-            this.btnXoa.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnXoa.Location = new System.Drawing.Point(107, 21);
-            this.btnXoa.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.btnXoa.Name = "btnXoa";
-            this.btnXoa.Size = new System.Drawing.Size(80, 29);
-            this.btnXoa.TabIndex = 0;
-            this.btnXoa.Text = "❌Xóa ❌";
-            this.btnXoa.UseVisualStyleBackColor = true;
-            this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
-            // 
-            // txtDonVi
-            // 
-            this.txtDonVi.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDonVi.Location = new System.Drawing.Point(118, 100);
-            this.txtDonVi.Margin = new System.Windows.Forms.Padding(2);
-            this.txtDonVi.Name = "txtDonVi";
-            this.txtDonVi.Size = new System.Drawing.Size(286, 24);
-            this.txtDonVi.TabIndex = 3;
             // 
             // dgvTenHang
             // 
@@ -315,6 +223,62 @@
             this.dgvGiaBan.HeaderText = "Giá Bán";
             this.dgvGiaBan.Name = "dgvGiaBan";
             // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.txtTimKiem);
+            this.panel1.Controls.Add(this.btnSua);
+            this.panel1.Controls.Add(this.btnXoa);
+            this.panel1.Controls.Add(this.btnThem);
+            this.panel1.Controls.Add(this.label7);
+            this.panel1.Location = new System.Drawing.Point(2, 518);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(838, 69);
+            this.panel1.TabIndex = 7;
+            // 
+            // txtTimKiem
+            // 
+            this.txtTimKiem.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTimKiem.Location = new System.Drawing.Point(506, 24);
+            this.txtTimKiem.Margin = new System.Windows.Forms.Padding(2);
+            this.txtTimKiem.Name = "txtTimKiem";
+            this.txtTimKiem.Size = new System.Drawing.Size(277, 24);
+            this.txtTimKiem.TabIndex = 4;
+            this.txtTimKiem.TextChanged += new System.EventHandler(this.txtTimKiem_TextChanged);
+            // 
+            // btnSua
+            // 
+            this.btnSua.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSua.Location = new System.Drawing.Point(195, 21);
+            this.btnSua.Margin = new System.Windows.Forms.Padding(2);
+            this.btnSua.Name = "btnSua";
+            this.btnSua.Size = new System.Drawing.Size(80, 29);
+            this.btnSua.TabIndex = 0;
+            this.btnSua.Text = "🔧 Sửa 🔧";
+            this.btnSua.UseVisualStyleBackColor = true;
+            this.btnSua.Click += new System.EventHandler(this.btnSua_Click);
+            // 
+            // btnXoa
+            // 
+            this.btnXoa.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnXoa.Location = new System.Drawing.Point(107, 21);
+            this.btnXoa.Margin = new System.Windows.Forms.Padding(2);
+            this.btnXoa.Name = "btnXoa";
+            this.btnXoa.Size = new System.Drawing.Size(80, 29);
+            this.btnXoa.TabIndex = 0;
+            this.btnXoa.Text = "❌Xóa ❌";
+            this.btnXoa.UseVisualStyleBackColor = true;
+            this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
+            // 
+            // txtDonVi
+            // 
+            this.txtDonVi.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDonVi.Location = new System.Drawing.Point(118, 100);
+            this.txtDonVi.Margin = new System.Windows.Forms.Padding(2);
+            this.txtDonVi.Name = "txtDonVi";
+            this.txtDonVi.Size = new System.Drawing.Size(286, 24);
+            this.txtDonVi.TabIndex = 3;
+            // 
             // txtGiaNhap
             // 
             this.txtGiaNhap.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -335,6 +299,17 @@
             this.label2.TabIndex = 4;
             this.label2.Text = "Giá nhập";
             // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(430, 27);
+            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(69, 18);
+            this.label7.TabIndex = 4;
+            this.label7.Text = "Tìm kiếm";
+            // 
             // ucMatHang
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -354,9 +329,10 @@
             this.Controls.Add(this.txtDonVi);
             this.Controls.Add(this.txtTenHang);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "ucMatHang";
             this.Size = new System.Drawing.Size(840, 587);
+            this.Load += new System.EventHandler(this.ucMatHang_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvShow)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
@@ -380,12 +356,9 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.DataGridView dgvShow;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button btnDong;
-        private System.Windows.Forms.Button btnDanhSach;
         private System.Windows.Forms.Button btnSua;
         private System.Windows.Forms.Button btnXoa;
         private System.Windows.Forms.TextBox txtTimKiem;
-        private System.Windows.Forms.Button btnTimKiem;
         private System.Windows.Forms.TextBox txtDonVi;
         private System.Windows.Forms.DataGridViewTextBoxColumn dgvTenHang;
         private System.Windows.Forms.DataGridViewTextBoxColumn dvgĐVT;
@@ -394,5 +367,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dgvGiaBan;
         private System.Windows.Forms.TextBox txtGiaNhap;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label7;
     }
 }
