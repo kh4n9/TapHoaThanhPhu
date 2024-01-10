@@ -217,9 +217,7 @@ C:\Users\TUAN\OneDrive\Máy tính\git\TapHoaThanhPhu\TapHoaThanhPhu\obj\Debug\Ta
 C:\Users\mkhoa\OneDrive\Máy tính\TapHoaThanhPhu\TapHoaThanhPhu\TapHoaThanhPhu\obj\Debug\TapHoaThanhPhu.GiaoDien.ucHoaDon.resources
 C:\Users\mkhoa\OneDrive\Máy tính\TapHoaThanhPhu\TapHoaThanhPhu\TapHoaThanhPhu\obj\Debug\TapHoaThanhPhu.GiaoDien.ucMatHang.resources
 C:\Users\mkhoa\OneDrive\Máy tính\TapHoaThanhPhu\TapHoaThanhPhu\TapHoaThanhPhu\obj\Debug\TapHoaThanhPhu.GiaoDien.ucNhanVien.resources
-<<<<<<< HEAD
 C:\Users\TUAN\OneDrive\Máy tính\git\TapHoaThanhPhu\TapHoaThanhPhu\obj\Debug\TapHoaThanhPhu.GiaoDien.ucNhapHang.resources
-=======
 C:\Users\mkhoa\OneDrive\Máy tính\New folder\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\mongocrypt.dll
 C:\Users\mkhoa\OneDrive\Máy tính\New folder\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\TapHoaThanhPhu.exe.config
 C:\Users\mkhoa\OneDrive\Máy tính\New folder\TapHoaThanhPhu\TapHoaThanhPhu\bin\Debug\TapHoaThanhPhu.exe

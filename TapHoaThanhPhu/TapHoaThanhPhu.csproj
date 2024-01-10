@@ -119,6 +119,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Class\CTHoaDon.cs" />
+    <Compile Include="Class\HoaDon.cs" />
     <Compile Include="Class\MatHang.cs" />
     <Compile Include="Class\NhanVien.cs" />
     <Compile Include="Class\QuanLy.cs" />
