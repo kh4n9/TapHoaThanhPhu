@@ -301,3 +301,4 @@ C:\Users\mkhoa\OneDrive\Máy tính\New folder\TapHoaThanhPhu\TapHoaThanhPhu\obj\
 C:\Users\mkhoa\OneDrive\Máy tính\New folder\TapHoaThanhPhu\TapHoaThanhPhu\obj\Debug\TapHoaThanhPhu.exe
 C:\Users\mkhoa\OneDrive\Máy tính\New folder\TapHoaThanhPhu\TapHoaThanhPhu\obj\Debug\TapHoaThanhPhu.pdb
 >>>>>>> ec26b9d6215d65a69f221628a0665dac380a8c7b
+C:\Users\TUAN\OneDrive\Máy tính\git\TapHoaThanhPhu\TapHoaThanhPhu\obj\Debug\TapHoaThanhPhu.GiaoDien.ucDoanhThu.resources

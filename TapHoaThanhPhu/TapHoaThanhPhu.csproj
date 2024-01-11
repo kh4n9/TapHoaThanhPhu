@@ -161,6 +161,12 @@
     <Compile Include="GiaoDien\ucDanhSachTaiKhoan.Designer.cs">
       <DependentUpon>ucDanhSachTaiKhoan.cs</DependentUpon>
     </Compile>
+    <Compile Include="GiaoDien\ucDoanhThu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GiaoDien\ucDoanhThu.Designer.cs">
+      <DependentUpon>ucDoanhThu.cs</DependentUpon>
+    </Compile>
     <Compile Include="GiaoDien\ucHoaDon.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -210,6 +216,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="GiaoDien\ucDanhSachTaiKhoan.resx">
       <DependentUpon>ucDanhSachTaiKhoan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GiaoDien\ucDoanhThu.resx">
+      <DependentUpon>ucDoanhThu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GiaoDien\ucHoaDon.resx">
       <DependentUpon>ucHoaDon.cs</DependentUpon>
