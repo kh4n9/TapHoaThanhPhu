@@ -110,5 +110,33 @@ namespace TapHoaThanhPhu.GiaoDien
             }
 
         }
+
+        private void btnXoa_Click(object sender, EventArgs e)
+        {
+            if (dgvHoaDon.SelectedRows.Count == 0)
+            {
+                MessageBox.Show("Vui lòng chọn món cần xóa!");
+                return;
+            }
+            CTHoaDon cTHoaDon = listCTHoaDon.Find(a => a.Ten == dgvHoaDon.SelectedRows[0].Cells[0].Value.ToString());
+            listCTHoaDon.Remove(cTHoaDon);
+            loadDGVHoaDon(listCTHoaDon);
+            return;
+        }
+
+        private void txtTimKiem_TextChanged(object sender, EventArgs e)
+        {
+            if (txtTimKiem.Text.Length == 0)
+            {
+                loadDGVHangHoa(dataMatHang);
+                return;
+            }
+            else
+            {
+                var listTimKiem = dataMatHang.FindAll(a => a.Ten.Contains(txtTimKiem.Text));
+                loadDGVHangHoa(listTimKiem);
+                return;
+            }
+        }
     }
 }
