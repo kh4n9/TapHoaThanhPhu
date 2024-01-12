@@ -85,5 +85,14 @@ namespace TapHoaThanhPhu.Forms
                 this.Close();
             }
         }
+
+        private void txtMatKhau2_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                btnLuu_Click(sender, e);
+            }
+
+        }
     }
 }

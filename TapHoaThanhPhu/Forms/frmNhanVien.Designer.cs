@@ -46,10 +46,10 @@
             // fcShow
             // 
             this.fcShow.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.fcShow.Location = new System.Drawing.Point(360, 31);
+            this.fcShow.Location = new System.Drawing.Point(360, 39);
             this.fcShow.Margin = new System.Windows.Forms.Padding(10);
             this.fcShow.Name = "fcShow";
-            this.fcShow.Size = new System.Drawing.Size(902, 624);
+            this.fcShow.Size = new System.Drawing.Size(902, 616);
             this.fcShow.TabIndex = 0;
             // 
             // accordionControl1
@@ -58,12 +58,12 @@
             this.accordionControl1.Elements.AddRange(new DevExpress.XtraBars.Navigation.AccordionControlElement[] {
             this.accordionControlElement1,
             this.accordionControlElement2});
-            this.accordionControl1.Location = new System.Drawing.Point(0, 31);
+            this.accordionControl1.Location = new System.Drawing.Point(0, 39);
             this.accordionControl1.Margin = new System.Windows.Forms.Padding(10);
             this.accordionControl1.Name = "accordionControl1";
             this.accordionControl1.ScrollBarMode = DevExpress.XtraBars.Navigation.ScrollBarMode.Touch;
-            this.accordionControl1.Size = new System.Drawing.Size(360, 624);
-            this.accordionControl1.TabIndex = 1;
+            this.accordionControl1.Size = new System.Drawing.Size(360, 616);
+            this.accordionControl1.TabIndex = 0;
             this.accordionControl1.ViewType = DevExpress.XtraBars.Navigation.AccordionControlViewType.HamburgerMenu;
             // 
             // accordionControlElement1
@@ -111,8 +111,8 @@
             this.fluentDesignFormControl1.Manager = this.fluentFormDefaultManager1;
             this.fluentDesignFormControl1.Margin = new System.Windows.Forms.Padding(4);
             this.fluentDesignFormControl1.Name = "fluentDesignFormControl1";
-            this.fluentDesignFormControl1.Size = new System.Drawing.Size(1262, 31);
-            this.fluentDesignFormControl1.TabIndex = 2;
+            this.fluentDesignFormControl1.Size = new System.Drawing.Size(1262, 39);
+            this.fluentDesignFormControl1.TabIndex = 0;
             this.fluentDesignFormControl1.TabStop = false;
             // 
             // fluentFormDefaultManager1
@@ -122,7 +122,7 @@
             // frmNhanVien
             // 
             this.Appearance.Options.UseFont = true;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 18F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1262, 655);
             this.ControlContainer = this.fcShow;
@@ -135,7 +135,9 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmNhanVien";
             this.NavigationControl = this.accordionControl1;
-            this.Text = "Tạp Hóa Thành Phú";
+
+            this.Text = "NHÂN VIÊN";
+
             ((System.ComponentModel.ISupportInitialize)(this.accordionControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.fluentDesignFormControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.fluentFormDefaultManager1)).EndInit();

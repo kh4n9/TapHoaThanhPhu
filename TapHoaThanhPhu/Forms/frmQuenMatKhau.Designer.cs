@@ -59,7 +59,7 @@
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.groupBox1.Size = new System.Drawing.Size(558, 333);
-            this.groupBox1.TabIndex = 1;
+            this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Quên mật khẩu";
             // 
@@ -68,8 +68,8 @@
             this.lblQuenMatKhau.AutoSize = true;
             this.lblQuenMatKhau.Location = new System.Drawing.Point(463, 308);
             this.lblQuenMatKhau.Name = "lblQuenMatKhau";
-            this.lblQuenMatKhau.Size = new System.Drawing.Size(88, 20);
-            this.lblQuenMatKhau.TabIndex = 3;
+            this.lblQuenMatKhau.Size = new System.Drawing.Size(108, 25);
+            this.lblQuenMatKhau.TabIndex = 6;
             this.lblQuenMatKhau.TabStop = true;
             this.lblQuenMatKhau.Text = "Đăng nhập";
             // 
@@ -78,7 +78,7 @@
             this.btnLayMa.Location = new System.Drawing.Point(373, 127);
             this.btnLayMa.Name = "btnLayMa";
             this.btnLayMa.Size = new System.Drawing.Size(97, 37);
-            this.btnLayMa.TabIndex = 2;
+            this.btnLayMa.TabIndex = 3;
             this.btnLayMa.Text = "Lấy mã";
             this.btnLayMa.UseVisualStyleBackColor = true;
             this.btnLayMa.Click += new System.EventHandler(this.btnLayMa_Click);
@@ -88,7 +88,7 @@
             this.btnDoiMatKhau.Location = new System.Drawing.Point(373, 216);
             this.btnDoiMatKhau.Name = "btnDoiMatKhau";
             this.btnDoiMatKhau.Size = new System.Drawing.Size(97, 48);
-            this.btnDoiMatKhau.TabIndex = 2;
+            this.btnDoiMatKhau.TabIndex = 5;
             this.btnDoiMatKhau.Text = "Đổi mật khẩu";
             this.btnDoiMatKhau.UseVisualStyleBackColor = true;
             this.btnDoiMatKhau.Click += new System.EventHandler(this.btnDoiMatKhau_Click);
@@ -99,8 +99,8 @@
             this.txtNewPassword.Location = new System.Drawing.Point(71, 181);
             this.txtNewPassword.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.txtNewPassword.Name = "txtNewPassword";
-            this.txtNewPassword.Size = new System.Drawing.Size(104, 20);
-            this.txtNewPassword.TabIndex = 1;
+            this.txtNewPassword.Size = new System.Drawing.Size(129, 25);
+            this.txtNewPassword.TabIndex = 0;
             this.txtNewPassword.Text = "Mật khẩu mới";
             // 
             // label3
@@ -109,8 +109,8 @@
             this.label3.Location = new System.Drawing.Point(71, 135);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(31, 20);
-            this.label3.TabIndex = 1;
+            this.label3.Size = new System.Drawing.Size(40, 25);
+            this.label3.TabIndex = 0;
             this.label3.Text = "Mã";
             // 
             // txtgmail
@@ -119,8 +119,8 @@
             this.txtgmail.Location = new System.Drawing.Point(71, 89);
             this.txtgmail.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.txtgmail.Name = "txtgmail";
-            this.txtgmail.Size = new System.Drawing.Size(50, 20);
-            this.txtgmail.TabIndex = 1;
+            this.txtgmail.Size = new System.Drawing.Size(62, 25);
+            this.txtgmail.TabIndex = 0;
             this.txtgmail.Text = "Gmail";
             // 
             // txtMatKhau
@@ -128,8 +128,8 @@
             this.txtMatKhau.Location = new System.Drawing.Point(207, 178);
             this.txtMatKhau.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtMatKhau.Name = "txtMatKhau";
-            this.txtMatKhau.Size = new System.Drawing.Size(263, 26);
-            this.txtMatKhau.TabIndex = 0;
+            this.txtMatKhau.Size = new System.Drawing.Size(263, 30);
+            this.txtMatKhau.TabIndex = 4;
             this.txtMatKhau.UseSystemPasswordChar = true;
             // 
             // txtMa
@@ -137,21 +137,26 @@
             this.txtMa.Location = new System.Drawing.Point(207, 132);
             this.txtMa.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtMa.Name = "txtMa";
+
             this.txtMa.Size = new System.Drawing.Size(123, 26);
             this.txtMa.TabIndex = 0;
             this.txtMa.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtMa_KeyPress);
+
+            this.txtMa.Size = new System.Drawing.Size(123, 30);
+            this.txtMa.TabIndex = 2;
+
             // 
             // txtTaiKhoan
             // 
             this.txtTaiKhoan.Location = new System.Drawing.Point(207, 86);
             this.txtTaiKhoan.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtTaiKhoan.Name = "txtTaiKhoan";
-            this.txtTaiKhoan.Size = new System.Drawing.Size(263, 26);
-            this.txtTaiKhoan.TabIndex = 0;
+            this.txtTaiKhoan.Size = new System.Drawing.Size(263, 30);
+            this.txtTaiKhoan.TabIndex = 1;
             // 
             // frmQuenMatKhau
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(584, 361);
             this.Controls.Add(this.groupBox1);

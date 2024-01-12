@@ -11,6 +11,7 @@ using System.Windows.Forms;
 using TapHoaThanhPhu.Class;
 using TapHoaThanhPhu.Forms;
 using TapHoaThanhPhu.FunctionClass;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace TapHoaThanhPhu
 {
@@ -90,5 +91,15 @@ namespace TapHoaThanhPhu
                 MessageBox.Show("Sử dụng tài khoản: admin và mật khẩu: admin để đăng nhập vào quản lý!");
             }
         }
+
+        private void txtMatKhau_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                btnDangNhap_Click(sender, e);
+            }
+
+        }
     }
+
 }

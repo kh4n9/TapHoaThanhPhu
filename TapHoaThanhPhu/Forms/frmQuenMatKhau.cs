@@ -103,12 +103,21 @@ namespace TapHoaThanhPhu.Forms
             }
         }
 
+
         private void txtMa_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (!Char.IsDigit(e.KeyChar) && !Char.IsControl(e.KeyChar)) 
+            if (!Char.IsDigit(e.KeyChar) && !Char.IsControl(e.KeyChar))
             {
                 e.Handled = true;
             }
+        }
+        private void txtMatKhau_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                btnDoiMatKhau_Click(sender, e);
+            }
+
         }
     }
 }

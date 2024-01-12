@@ -47,5 +47,10 @@ namespace TapHoaThanhPhu.Forms
             ucDoanhThu ucDoanhThu = new ucDoanhThu();
             fcShow.Controls.Add(ucDoanhThu);
         }
+        private void mnDangXuat_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Đăng xuất thành công!");
+            this.Close();
+        }
     }
 }
