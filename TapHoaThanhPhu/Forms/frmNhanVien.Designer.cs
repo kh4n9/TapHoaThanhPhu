@@ -135,7 +135,7 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmNhanVien";
             this.NavigationControl = this.accordionControl1;
-            this.Text = "frmNhanVien";
+            this.Text = "Tạp Hóa Thành Phú";
             ((System.ComponentModel.ISupportInitialize)(this.accordionControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.fluentDesignFormControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.fluentFormDefaultManager1)).EndInit();

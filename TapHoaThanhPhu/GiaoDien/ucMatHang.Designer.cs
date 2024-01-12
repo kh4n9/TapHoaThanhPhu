@@ -49,10 +49,10 @@
             this.txtTimKiem = new System.Windows.Forms.TextBox();
             this.btnSua = new System.Windows.Forms.Button();
             this.btnXoa = new System.Windows.Forms.Button();
+            this.label7 = new System.Windows.Forms.Label();
             this.txtDonVi = new System.Windows.Forms.TextBox();
             this.txtGiaNhap = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgvShow)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -120,6 +120,7 @@
             this.txtSoLuong.Name = "txtSoLuong";
             this.txtSoLuong.Size = new System.Drawing.Size(286, 24);
             this.txtSoLuong.TabIndex = 3;
+            this.txtSoLuong.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtSoLuong_KeyPress);
             // 
             // label5
             // 
@@ -140,6 +141,7 @@
             this.txtGiaBan.Name = "txtGiaBan";
             this.txtGiaBan.Size = new System.Drawing.Size(286, 24);
             this.txtGiaBan.TabIndex = 3;
+            this.txtGiaBan.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtGiaBan_KeyPress);
             // 
             // label6
             // 
@@ -270,6 +272,17 @@
             this.btnXoa.UseVisualStyleBackColor = true;
             this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
             // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(430, 27);
+            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(69, 18);
+            this.label7.TabIndex = 4;
+            this.label7.Text = "Tìm kiếm";
+            // 
             // txtDonVi
             // 
             this.txtDonVi.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -287,6 +300,7 @@
             this.txtGiaNhap.Name = "txtGiaNhap";
             this.txtGiaNhap.Size = new System.Drawing.Size(286, 24);
             this.txtGiaNhap.TabIndex = 3;
+            this.txtGiaNhap.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtGiaNhap_KeyPress);
             // 
             // label2
             // 
@@ -298,17 +312,6 @@
             this.label2.Size = new System.Drawing.Size(67, 18);
             this.label2.TabIndex = 4;
             this.label2.Text = "Giá nhập";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(430, 27);
-            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(69, 18);
-            this.label7.TabIndex = 4;
-            this.label7.Text = "Tìm kiếm";
             // 
             // ucMatHang
             // 

@@ -139,6 +139,7 @@
             this.txtMa.Name = "txtMa";
             this.txtMa.Size = new System.Drawing.Size(123, 26);
             this.txtMa.TabIndex = 0;
+            this.txtMa.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtMa_KeyPress);
             // 
             // txtTaiKhoan
             // 

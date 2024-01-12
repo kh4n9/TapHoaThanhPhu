@@ -180,12 +180,6 @@
     <Compile Include="GiaoDien\ucMatHang.Designer.cs">
       <DependentUpon>ucMatHang.cs</DependentUpon>
     </Compile>
-    <Compile Include="GiaoDien\ucNhanVien.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="GiaoDien\ucNhanVien.Designer.cs">
-      <DependentUpon>ucNhanVien.cs</DependentUpon>
-    </Compile>
     <Compile Include="GiaoDien\ucNhapHang.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -226,9 +220,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="GiaoDien\ucMatHang.resx">
       <DependentUpon>ucMatHang.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="GiaoDien\ucNhanVien.resx">
-      <DependentUpon>ucNhanVien.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GiaoDien\ucNhapHang.resx">
       <DependentUpon>ucNhapHang.cs</DependentUpon>

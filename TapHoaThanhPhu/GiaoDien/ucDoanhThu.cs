@@ -139,6 +139,5 @@ namespace TapHoaThanhPhu.GiaoDien
             txtLoiNhuan.Text = (tongTienBan - tongTienNhapSoHangDaBan).ToString();
 
         }
-
     }
 }
