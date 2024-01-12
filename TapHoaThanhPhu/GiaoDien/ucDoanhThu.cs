@@ -37,7 +37,7 @@ namespace TapHoaThanhPhu.GiaoDien
                 dgvHoaDonNhap.Rows[index].Cells[0].Value = index + 1;
                 dgvHoaDonNhap.Rows[index].Cells[1].Value = item._id;
                 dgvHoaDonNhap.Rows[index].Cells[2].Value = item.NgayLapHoaDon;
-                dgvHoaDonNhap.Rows[index].Cells[3].Value = "Hoàng Minh Khang";
+                dgvHoaDonNhap.Rows[index].Cells[3].Value = item.tenNhanVien;
                 var listChiTiet = item.listMatHang;
                 int tongTien = 0;
                 foreach (var item1 in listChiTiet)
@@ -57,7 +57,7 @@ namespace TapHoaThanhPhu.GiaoDien
                 dgvHoaDonBan.Rows[index].Cells[0].Value = index + 1;
                 dgvHoaDonBan.Rows[index].Cells[1].Value = item._id;
                 dgvHoaDonBan.Rows[index].Cells[2].Value = item.NgayLapHoaDon;
-                dgvHoaDonBan.Rows[index].Cells[3].Value = "Hoàng Minh Khang";
+                dgvHoaDonBan.Rows[index].Cells[3].Value = item.tenNhanVien;
                 var listChiTiet = item.listMatHang;
                 int tongTien = 0;
                 foreach (var item1 in listChiTiet)

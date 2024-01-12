@@ -10,6 +10,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using TapHoaThanhPhu.Class;
+using TapHoaThanhPhu.FunctionClass;
 
 namespace TapHoaThanhPhu.GiaoDien
 {
@@ -61,7 +62,8 @@ namespace TapHoaThanhPhu.GiaoDien
                 NhanVien nhanVien = new NhanVien();
                 nhanVien.Ten = txtTen.Text;
                 nhanVien.TaiKhoan = txtTaiKhoan.Text;
-                nhanVien.MatKhau = txtMatKhau.Text;
+                GetMD5String getMD5String = new GetMD5String();
+                nhanVien.MatKhau = getMD5String.HashPassword(txtMatKhau.Text);
 
                 collectionNhanVien.InsertOne(nhanVien);
                 MessageBox.Show("Thêm thành công một nhân viên!");
@@ -72,7 +74,8 @@ namespace TapHoaThanhPhu.GiaoDien
                 QuanLy quanLy = new QuanLy();
                 quanLy.Ten = txtTen.Text;
                 quanLy.TaiKhoan = txtTaiKhoan.Text;
-                quanLy.MatKhau = txtMatKhau.Text;
+                GetMD5String getMD5String = new GetMD5String();
+                quanLy.MatKhau = getMD5String.HashPassword(txtMatKhau.Text);
 
                 collectionQuanLy.InsertOne(quanLy);
                 MessageBox.Show("Thêm thành công một quản lý!");

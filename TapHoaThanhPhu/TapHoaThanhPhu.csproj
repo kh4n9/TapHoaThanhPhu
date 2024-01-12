@@ -154,6 +154,7 @@
     <Compile Include="Forms\frmSuaTaiKhoanQuanLy.Designer.cs">
       <DependentUpon>frmSuaTaiKhoanQuanLy.cs</DependentUpon>
     </Compile>
+    <Compile Include="FunctionClass\GetMD5String.cs" />
     <Compile Include="FunctionClass\SendMail.cs" />
     <Compile Include="GiaoDien\ucDanhSachTaiKhoan.cs">
       <SubType>UserControl</SubType>

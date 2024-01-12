@@ -13,11 +13,13 @@ namespace TapHoaThanhPhu.Class
         public DateTime NgayLapHoaDon;
         public String Loai;
         public List<CTHoaDon> listMatHang;
-        public HoaDon(List<CTHoaDon> listMatHang, string loai)
+        public string tenNhanVien;
+        public HoaDon(List<CTHoaDon> listMatHang, string loai, string tenNhanVien)
         {
             NgayLapHoaDon = DateTime.Now;
             this.listMatHang = listMatHang;
             Loai = loai;
+            this.tenNhanVien = tenNhanVien;
         }
     }
 }

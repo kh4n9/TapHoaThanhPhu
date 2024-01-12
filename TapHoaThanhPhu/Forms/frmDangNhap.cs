@@ -40,16 +40,17 @@ namespace TapHoaThanhPhu
                     return;
                 }
             }
-            
 
-            var accQuanLy = collectionQuanLy.Find(a => a.TaiKhoan == txtTaiKhoan.Text && a.MatKhau == txtMatKhau.Text).ToList();
-            var accNhanVien = collectionNhanVien.Find(a => a.TaiKhoan == txtTaiKhoan.Text && a.MatKhau == txtMatKhau.Text).ToList();
+            GetMD5String getMD5String = new GetMD5String();
+
+            var accQuanLy = collectionQuanLy.Find(a => a.TaiKhoan == txtTaiKhoan.Text && a.MatKhau == getMD5String.HashPassword(txtMatKhau.Text)).ToList();
+            var accNhanVien = collectionNhanVien.Find(a => a.TaiKhoan == txtTaiKhoan.Text && a.MatKhau == getMD5String.HashPassword(txtMatKhau.Text)).ToList();
 
             if (accQuanLy.Count > 0)
             {
                 MessageBox.Show("Đăng nhập thành công!");
                 this.Hide();
-                frmQuanLy frmQuanLy = new frmQuanLy();
+                frmQuanLy frmQuanLy = new frmQuanLy(accQuanLy[0].Ten);
                 frmQuanLy.ShowDialog();
                 this.Visible = true;
             }
@@ -57,7 +58,7 @@ namespace TapHoaThanhPhu
             {
                 MessageBox.Show("Đăng nhập thành công!");
                 this.Hide();
-                frmNhanVien frmNhanVien = new frmNhanVien();
+                frmNhanVien frmNhanVien = new frmNhanVien(accNhanVien[0].Ten);
                 frmNhanVien.ShowDialog();
                 this.Visible = true;
             }
@@ -82,7 +83,8 @@ namespace TapHoaThanhPhu
             {
                 QuanLy quanLy = new QuanLy();
                 quanLy.TaiKhoan = "admin";
-                quanLy.MatKhau = "admin";
+                GetMD5String getMD5String = new GetMD5String();
+                quanLy.MatKhau = getMD5String.HashPassword("admin");
                 quanLy.Ten = "admin";
                 collectionQuanLy.InsertOne(quanLy);
                 MessageBox.Show("Sử dụng tài khoản: admin và mật khẩu: admin để đăng nhập vào quản lý!");

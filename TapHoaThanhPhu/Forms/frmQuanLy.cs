@@ -13,9 +13,11 @@ namespace TapHoaThanhPhu.Forms
 {
     public partial class frmQuanLy : DevExpress.XtraBars.FluentDesignSystem.FluentDesignForm
     {
-        public frmQuanLy()
+        private string tenQuanLy;
+        public frmQuanLy(string tenQuanLy)
         {
             InitializeComponent();
+            this.tenQuanLy = tenQuanLy;
         }
 
         private void mnDanhSachTaiKhoan_Click(object sender, EventArgs e)
