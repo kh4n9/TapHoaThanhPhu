@@ -13,20 +13,22 @@ namespace TapHoaThanhPhu.Forms
 {
     public partial class frmNhanVien : DevExpress.XtraBars.FluentDesignSystem.FluentDesignForm
     {
-        public frmNhanVien()
+        private string tenNhanVien;
+        public frmNhanVien(string tenNhanVien)
         {
             InitializeComponent();
+            this.tenNhanVien = tenNhanVien;
         }
         private void mnHoaDon_Click(object sender, EventArgs e)
         {
             fcShow.Controls.Clear();
-            ucHoaDon ucHoaDon = new ucHoaDon();
+            ucHoaDon ucHoaDon = new ucHoaDon(tenNhanVien);
             fcShow.Controls.Add(ucHoaDon);
         }
         private void mnNhapHang_Click(object sender, EventArgs e)
         {
             fcShow.Controls.Clear();
-            ucNhapHang ucNhapHang = new ucNhapHang();
+            ucNhapHang ucNhapHang = new ucNhapHang(tenNhanVien);
             fcShow.Controls.Add(ucNhapHang);
         }
         private void mnDangXuat_Click(object sender, EventArgs e)

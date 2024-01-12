@@ -14,6 +14,7 @@ namespace TapHoaThanhPhu.GiaoDien
 {
     public partial class ucNhapHang : UserControl
     {
+        private string tenNhanVien;
         private IMongoClient client = new MongoClient("mongodb://localhost:27017");
         private IMongoDatabase database;
         private IMongoCollection<MatHang> collectionMatHang;
@@ -21,12 +22,13 @@ namespace TapHoaThanhPhu.GiaoDien
         private List<MatHang> dataMatHang;
         private List<CTHoaDon> listCTHoaDon = new List<CTHoaDon>();
 
-        public ucNhapHang()
+        public ucNhapHang(string tenNhanVien)
         {
             InitializeComponent();
             database = client.GetDatabase("TapHoaThanhPhu");
             collectionMatHang = database.GetCollection<MatHang>("MatHang");
             collectionHoaDon = database.GetCollection<HoaDon>("HoaDon");
+            this.tenNhanVien = tenNhanVien;
         }
 
         private void ucNhapHang_Load(object sender, EventArgs e)
@@ -103,7 +105,7 @@ namespace TapHoaThanhPhu.GiaoDien
                     var fillter = Builders<MatHang>.Filter.Eq("Ten", matHang.Ten);
                     collectionMatHang.ReplaceOne(fillter, matHang);
                 }
-                HoaDon hoaDon = new HoaDon(listCTHoaDon, "nhập");
+                HoaDon hoaDon = new HoaDon(listCTHoaDon, "nhập", tenNhanVien);
                 collectionHoaDon.InsertOne(hoaDon);
                 MessageBox.Show("Nhập thành công!");
                 return;

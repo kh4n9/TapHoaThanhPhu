@@ -13,9 +13,11 @@ namespace TapHoaThanhPhu.Forms
 {
     public partial class frmQuanLy : DevExpress.XtraBars.FluentDesignSystem.FluentDesignForm
     {
-        public frmQuanLy()
+        private string tenQuanLy;
+        public frmQuanLy(string tenQuanLy)
         {
             InitializeComponent();
+            this.tenQuanLy = tenQuanLy;
         }
 
         private void mnDanhSachTaiKhoan_Click(object sender, EventArgs e)
@@ -44,6 +46,11 @@ namespace TapHoaThanhPhu.Forms
             fcShow.Controls.Clear();
             ucDoanhThu ucDoanhThu = new ucDoanhThu();
             fcShow.Controls.Add(ucDoanhThu);
+        }
+        private void mnDangXuat_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Đăng xuất thành công!");
+            this.Close();
         }
     }
 }

@@ -72,7 +72,7 @@
             // 
             this.btnDangNhap.Location = new System.Drawing.Point(373, 216);
             this.btnDangNhap.Name = "btnDangNhap";
-            this.btnDangNhap.Size = new System.Drawing.Size(97, 37);
+            this.btnDangNhap.Size = new System.Drawing.Size(138, 60);
             this.btnDangNhap.TabIndex = 3;
             this.btnDangNhap.Text = "Đăng nhập";
             this.btnDangNhap.UseVisualStyleBackColor = true;
@@ -106,6 +106,7 @@
             this.txtMatKhau.Size = new System.Drawing.Size(263, 30);
             this.txtMatKhau.TabIndex = 2;
             this.txtMatKhau.UseSystemPasswordChar = true;
+            this.txtMatKhau.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtMatKhau_KeyDown);
             // 
             // txtTaiKhoan
             // 

@@ -76,10 +76,12 @@ namespace TapHoaThanhPhu.Forms
 
         private void btnDoiMatKhau_Click(object sender, EventArgs e)
         {
+            GetMD5String getMD5String = new GetMD5String();
+
             if (otp.ToString() == txtMa.Text && isQuanLy == true)
             {
                 var fillter = Builders<QuanLy>.Filter.Eq("TaiKhoan", txtTaiKhoan.Text);
-                var update = Builders<QuanLy>.Update.Set("MatKhau", txtMatKhau.Text);
+                var update = Builders<QuanLy>.Update.Set("MatKhau", getMD5String.HashPassword(txtMatKhau.Text));
                 collectionQuanLy.UpdateOne(fillter, update);
                 MessageBox.Show("Cập nhật mật khẩu thành công!");
                 this.Close();
@@ -88,7 +90,7 @@ namespace TapHoaThanhPhu.Forms
             else if (otp.ToString() == txtMa.Text && isQuanLy == false)
             {
                 var fillter = Builders<NhanVien>.Filter.Eq("TaiKhoan", txtTaiKhoan.Text);
-                var update = Builders<NhanVien>.Update.Set("MatKhau", txtMatKhau.Text);
+                var update = Builders<NhanVien>.Update.Set("MatKhau", getMD5String.HashPassword(txtMatKhau.Text));
                 collectionNhanVien.UpdateOne(fillter, update);
                 MessageBox.Show("Cập nhật mật khẩu thành công!");
                 this.Close();
@@ -99,6 +101,15 @@ namespace TapHoaThanhPhu.Forms
                 MessageBox.Show("Kiểm tra lại mã OTP!");
                 return;
             }
+        }
+
+        private void txtMatKhau_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                btnDoiMatKhau_Click(sender, e);
+            }
+
         }
     }
 }

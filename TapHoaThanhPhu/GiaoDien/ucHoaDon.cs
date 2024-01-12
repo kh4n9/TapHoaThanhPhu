@@ -17,18 +17,20 @@ namespace TapHoaThanhPhu.GiaoDien
 {
     public partial class ucHoaDon : UserControl
     {
+        private string tenNhanVien;
         private IMongoClient client = new MongoClient("mongodb://localhost:27017");
         private IMongoDatabase database;
         private IMongoCollection<HoaDon> collectionHoaDon;
         private IMongoCollection<MatHang> collectionMatHang;
         private List<CTHoaDon> listCTHoaDon = new List<CTHoaDon>();
 
-        public ucHoaDon()
+        public ucHoaDon(string tenNhanVien)
         {
             InitializeComponent();
             database = client.GetDatabase("TapHoaThanhPhu");
             collectionHoaDon = database.GetCollection<HoaDon>("HoaDon");
             collectionMatHang = database.GetCollection<MatHang>("MatHang");
+            this.tenNhanVien = tenNhanVien;
         }
 
         private void loadDGVMatHang(List<MatHang> matHangList)
@@ -95,7 +97,6 @@ namespace TapHoaThanhPhu.GiaoDien
                 return;
             }
             listCTHoaDon.Add(cTHoaDon);
-            MessageBox.Show(listCTHoaDon.Count().ToString());
             loadDGVHoaDon(listCTHoaDon);
             return;
         }
@@ -116,7 +117,7 @@ namespace TapHoaThanhPhu.GiaoDien
 
         private void btnInHoaDon_Click(object sender, EventArgs e)
         {
-            HoaDon hoaDon = new HoaDon(listCTHoaDon,"bán");
+            HoaDon hoaDon = new HoaDon(listCTHoaDon,"bán",tenNhanVien);
             foreach(var item in listCTHoaDon)
             {
                 MatHang matHang = collectionMatHang.Find(a => a.Ten == item.Ten).First();
@@ -126,6 +127,8 @@ namespace TapHoaThanhPhu.GiaoDien
             }
             collectionHoaDon.InsertOne(hoaDon);
             MessageBox.Show("Thanh toán thành công!\nHóa đơn đã được lưu!");
+            listCTHoaDon.Clear();
+            loadDGVHoaDon(listCTHoaDon );
             return;
         }
 
