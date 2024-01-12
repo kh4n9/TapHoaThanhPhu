@@ -63,6 +63,16 @@ namespace TapHoaThanhPhu.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Logo_phú {
+            get {
+                object obj = ResourceManager.GetObject("Logo phú", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap png_clipart_plus_plus_thumbnail {
             get {
                 object obj = ResourceManager.GetObject("png-clipart-plus-plus-thumbnail", resourceCulture);

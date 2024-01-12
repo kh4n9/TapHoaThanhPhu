@@ -38,5 +38,12 @@ namespace TapHoaThanhPhu.Forms
             ucMatHang ucMatHang = new ucMatHang();
             fcShow.Controls.Add(ucMatHang);
         }
+
+        private void mnDoanhThu_Click(object sender, EventArgs e)
+        {
+            fcShow.Controls.Clear();
+            ucDoanhThu ucDoanhThu = new ucDoanhThu();
+            fcShow.Controls.Add(ucDoanhThu);
+        }
     }
 }

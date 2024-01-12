@@ -35,8 +35,8 @@
             this.mnDanhSachTaiKhoan = new DevExpress.XtraBars.Navigation.AccordionControlElement();
             this.mnTaoTaiKhoan = new DevExpress.XtraBars.Navigation.AccordionControlElement();
             this.accordionControlElement2 = new DevExpress.XtraBars.Navigation.AccordionControlElement();
-            this.mnDanhSachMatHang = new DevExpress.XtraBars.Navigation.AccordionControlElement();
             this.mnThemMatHang = new DevExpress.XtraBars.Navigation.AccordionControlElement();
+            this.mnDoanhThu = new DevExpress.XtraBars.Navigation.AccordionControlElement();
             this.fluentDesignFormControl1 = new DevExpress.XtraBars.FluentDesignSystem.FluentDesignFormControl();
             this.fluentFormDefaultManager1 = new DevExpress.XtraBars.FluentDesignSystem.FluentFormDefaultManager(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.accordionControl1)).BeginInit();
@@ -47,10 +47,9 @@
             // fcShow
             // 
             this.fcShow.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.fcShow.Location = new System.Drawing.Point(325, 39);
-            this.fcShow.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.fcShow.Location = new System.Drawing.Point(279, 31);
             this.fcShow.Name = "fcShow";
-            this.fcShow.Size = new System.Drawing.Size(1110, 846);
+            this.fcShow.Size = new System.Drawing.Size(951, 688);
             this.fcShow.TabIndex = 0;
             // 
             // accordionControl1
@@ -63,11 +62,10 @@
             this.accordionControl1.Elements.AddRange(new DevExpress.XtraBars.Navigation.AccordionControlElement[] {
             this.accordionControlElement1,
             this.accordionControlElement2});
-            this.accordionControl1.Location = new System.Drawing.Point(0, 39);
-            this.accordionControl1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.accordionControl1.Location = new System.Drawing.Point(0, 31);
             this.accordionControl1.Name = "accordionControl1";
             this.accordionControl1.ScrollBarMode = DevExpress.XtraBars.Navigation.ScrollBarMode.Touch;
-            this.accordionControl1.Size = new System.Drawing.Size(325, 846);
+            this.accordionControl1.Size = new System.Drawing.Size(279, 688);
             this.accordionControl1.TabIndex = 1;
             this.accordionControl1.ViewType = DevExpress.XtraBars.Navigation.AccordionControlViewType.HamburgerMenu;
             // 
@@ -97,17 +95,11 @@
             // accordionControlElement2
             // 
             this.accordionControlElement2.Elements.AddRange(new DevExpress.XtraBars.Navigation.AccordionControlElement[] {
-            this.mnDanhSachMatHang,
-            this.mnThemMatHang});
+            this.mnThemMatHang,
+            this.mnDoanhThu});
             this.accordionControlElement2.Expanded = true;
             this.accordionControlElement2.Name = "accordionControlElement2";
             this.accordionControlElement2.Text = "Chức Năng";
-            // 
-            // mnDanhSachMatHang
-            // 
-            this.mnDanhSachMatHang.Name = "mnDanhSachMatHang";
-            this.mnDanhSachMatHang.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
-            this.mnDanhSachMatHang.Text = "Danh Sách Mặt Hàng";
             // 
             // mnThemMatHang
             // 
@@ -116,14 +108,20 @@
             this.mnThemMatHang.Text = "Thêm Mặt Hàng";
             this.mnThemMatHang.Click += new System.EventHandler(this.mnThemMatHang_Click);
             // 
+            // mnDoanhThu
+            // 
+            this.mnDoanhThu.Name = "mnDoanhThu";
+            this.mnDoanhThu.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
+            this.mnDoanhThu.Text = "Doanh Thu";
+            this.mnDoanhThu.Click += new System.EventHandler(this.mnDoanhThu_Click);
+            // 
             // fluentDesignFormControl1
             // 
             this.fluentDesignFormControl1.FluentDesignForm = this;
             this.fluentDesignFormControl1.Location = new System.Drawing.Point(0, 0);
             this.fluentDesignFormControl1.Manager = this.fluentFormDefaultManager1;
-            this.fluentDesignFormControl1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.fluentDesignFormControl1.Name = "fluentDesignFormControl1";
-            this.fluentDesignFormControl1.Size = new System.Drawing.Size(1435, 39);
+            this.fluentDesignFormControl1.Size = new System.Drawing.Size(1230, 31);
             this.fluentDesignFormControl1.TabIndex = 2;
             this.fluentDesignFormControl1.TabStop = false;
             // 
@@ -133,15 +131,15 @@
             // 
             // frmQuanLy
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1435, 885);
+            this.ClientSize = new System.Drawing.Size(1230, 719);
             this.ControlContainer = this.fcShow;
             this.Controls.Add(this.fcShow);
             this.Controls.Add(this.accordionControl1);
             this.Controls.Add(this.fluentDesignFormControl1);
             this.FluentDesignFormControl = this.fluentDesignFormControl1;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.IconOptions.Image = global::TapHoaThanhPhu.Properties.Resources.Logo_phú;
             this.Name = "frmQuanLy";
             this.NavigationControl = this.accordionControl1;
             this.Text = "frmQuanLy";
@@ -161,7 +159,7 @@
         private DevExpress.XtraBars.Navigation.AccordionControlElement accordionControlElement2;
         private DevExpress.XtraBars.Navigation.AccordionControlElement mnDanhSachTaiKhoan;
         private DevExpress.XtraBars.Navigation.AccordionControlElement mnTaoTaiKhoan;
-        private DevExpress.XtraBars.Navigation.AccordionControlElement mnDanhSachMatHang;
         private DevExpress.XtraBars.Navigation.AccordionControlElement mnThemMatHang;
+        private DevExpress.XtraBars.Navigation.AccordionControlElement mnDoanhThu;
     }
 }

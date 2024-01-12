@@ -117,6 +117,13 @@ namespace TapHoaThanhPhu.GiaoDien
         private void btnInHoaDon_Click(object sender, EventArgs e)
         {
             HoaDon hoaDon = new HoaDon(listCTHoaDon,"bán");
+            foreach(var item in listCTHoaDon)
+            {
+                MatHang matHang = collectionMatHang.Find(a => a.Ten == item.Ten).First();
+                matHang.SoLuong -= item.soLuong;
+                var fillter = Builders<MatHang>.Filter.Eq("Ten", matHang.Ten);
+                collectionMatHang.ReplaceOne(fillter, matHang);
+            }
             collectionHoaDon.InsertOne(hoaDon);
             MessageBox.Show("Thanh toán thành công!\nHóa đơn đã được lưu!");
             return;

@@ -266,6 +266,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="mongocrypt.dll" />
+    <None Include="Resources\Logo phú.png" />
     <None Include="Resources\png-clipart-plus-plus-thumbnail.png" />
   </ItemGroup>
   <ItemGroup />
